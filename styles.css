@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.box{
+.container{
 	width:500px;
 	height:210px;
 	background:#D2D3D3;
@@ -11,8 +11,12 @@ section{
 	height:110px;
 	border-radius:100%;
 	display:inline-flex;
+	 gap:20px;
 	}
 .circle{
 	text-align:center;
 	margin:40px auto;
+}
+.red{
+	background:red;
 }
